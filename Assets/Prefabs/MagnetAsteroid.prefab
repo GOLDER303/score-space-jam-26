@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5646442217015579690}
   - component: {fileID: 8337144344772395501}
   - component: {fileID: 1150905069772917276}
-  - component: {fileID: 5429199217954705312}
+  - component: {fileID: -7540190357290150543}
   m_Layer: 8
-  m_Name: Asteroid
+  m_Name: MagnetAsteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4b1a3c8bca914bc49ada9df650b92f33, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2df6010909509024ca5c33527821543f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -150,7 +150,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0266666, y: 0.8933333}
+    oldSize: {x: 3.16, y: 2.83}
     newSize: {x: 0.01, y: 0.01}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -179,7 +179,7 @@ PolygonCollider2D:
       - {x: -0.30333334, y: -0.41333333}
       - {x: -0.33, y: -0.4}
   m_UseDelaunayMesh: 0
---- !u!114 &5429199217954705312
+--- !u!114 &-7540190357290150543
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,13 +188,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1260795891503334281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2de2e03adaea87c4ab053f1fed62fdab, type: 3}
+  m_Script: {fileID: 11500000, guid: c446bfa12014c234f8ffdba7061e62af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spriteVariations:
-  - {fileID: 21300000, guid: 4b1a3c8bca914bc49ada9df650b92f33, type: 3}
-  - {fileID: 21300000, guid: 339a09751a614144aa5de397c3c52e19, type: 3}
-  - {fileID: 21300000, guid: b117fd545f5240e4b802d1abb6ef87eb, type: 3}
-  - {fileID: 21300000, guid: ece4b118ea0f19b438de0eced7812853, type: 3}
-  downscaleRange: 0.2
-  upscaleRange: 4
+  - {fileID: 21300000, guid: 2df6010909509024ca5c33527821543f, type: 3}
+  - {fileID: 21300000, guid: b1a2ec84f39dc2d4bb468dffe858bfd3, type: 3}
+  - {fileID: 21300000, guid: 2aeaeefc49aa0b746b48f99b4b854fa9, type: 3}
+  - {fileID: 21300000, guid: b4046f74269d8684ea07a42c1a5e1137, type: 3}
+  downscaleRange: 1
+  upscaleRange: 1.5
