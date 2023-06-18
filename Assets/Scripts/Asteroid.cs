@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Asteroid : MonoBehaviour
 {
+    [SerializeField] private Sprite[] spriteVariations;
     [SerializeField] private float downscaleRange = .8f;
     [SerializeField] private float upscaleRange = 2f;
     private SpriteRenderer spriteRenderer;
@@ -17,6 +18,10 @@ public class Asteroid : MonoBehaviour
 
     public void Setup()
     {
+        spriteRenderer.sprite = spriteVariations[Random.Range(0, spriteVariations.Length - 1)];
+        Destroy(GetComponent<PolygonCollider2D>());
+        gameObject.AddComponent<PolygonCollider2D>();
+
         transform.eulerAngles = new Vector3(0f, 0f, Random.value * 360);
 
         float size = Random.Range(downscaleRange, upscaleRange);
