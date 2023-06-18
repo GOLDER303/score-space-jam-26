@@ -18,6 +18,5 @@ public class PlayerShooting : MonoBehaviour
         GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D projectileRigidBody = projectile.GetComponent<Rigidbody2D>();
         projectileRigidBody.AddForce(firePoint.up * projectileForce, ForceMode2D.Impulse);
-        Destroy(projectile, 4f);
     }
 }
