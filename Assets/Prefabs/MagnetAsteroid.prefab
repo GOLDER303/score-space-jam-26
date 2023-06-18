@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260795891503334281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -198,3 +198,5 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b4046f74269d8684ea07a42c1a5e1137, type: 3}
   downscaleRange: 1
   upscaleRange: 1.5
+  magnetPebble: {fileID: 6608490996266169048, guid: b24696d8e99cd9d4f8019be5a0f4e2bf, type: 3}
+  magnetPebbleAmount: 5
