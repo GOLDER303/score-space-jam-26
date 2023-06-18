@@ -15,4 +15,13 @@ public class Player : MonoBehaviour
             //TODO: spawn particles
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("MagnetPebble"))
+        {
+            gameManager.AddScore(1);
+            Destroy(other.gameObject);
+        }
+    }
 }

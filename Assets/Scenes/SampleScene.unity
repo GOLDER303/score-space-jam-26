@@ -525,8 +525,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   asteroidPrefab: {fileID: 1260795891503334281, guid: ba9cead342940bc4c97d8f9cbc5162df, type: 3}
-  magnetAsteroidPrefab: {fileID: 0}
-  secondsBetweenSpawns: 1
+  magnetAsteroidPrefab: {fileID: 1260795891503334281, guid: 719f69c157b277d49a0c928acf882b21, type: 3}
+  asteroidSpawnDelay: 1
+  magnetAsteroidSpawnDelay: 1
   spawnDistance: 15
   asteroidForce: 15
   trajectoryVariance: 15

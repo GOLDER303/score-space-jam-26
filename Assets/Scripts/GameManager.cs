@@ -12,4 +12,9 @@ public class GameManager : MonoBehaviour
     {
         gameOverScreen.Setup(score);
     }
+
+    public void AddScore(int scoreToAdd)
+    {
+        score += scoreToAdd;
+    }
 }

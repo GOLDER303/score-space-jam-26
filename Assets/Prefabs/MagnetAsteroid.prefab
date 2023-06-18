@@ -196,7 +196,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b1a2ec84f39dc2d4bb468dffe858bfd3, type: 3}
   - {fileID: 21300000, guid: 2aeaeefc49aa0b746b48f99b4b854fa9, type: 3}
   - {fileID: 21300000, guid: b4046f74269d8684ea07a42c1a5e1137, type: 3}
-  downscaleRange: 1
-  upscaleRange: 1.5
+  downscaleRange: 0.8
+  upscaleRange: 1
   magnetPebble: {fileID: 6608490996266169048, guid: b24696d8e99cd9d4f8019be5a0f4e2bf, type: 3}
   magnetPebbleAmount: 5

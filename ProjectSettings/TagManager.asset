@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Projectile
   - Asteroid
+  - MagnetPebble
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Projectile
   - Asteroid
   - Boundary
-  - 
+  - MagnetPebble
   - 
   - 
   - 
@@ -40,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: MagnetPebbels
+    uniqueID: 3174115785
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
