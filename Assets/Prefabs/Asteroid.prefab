@@ -196,5 +196,5 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 339a09751a614144aa5de397c3c52e19, type: 3}
   - {fileID: 21300000, guid: b117fd545f5240e4b802d1abb6ef87eb, type: 3}
   - {fileID: 21300000, guid: ece4b118ea0f19b438de0eced7812853, type: 3}
-  downscaleRange: 0.2
+  downscaleRange: 0.8
   upscaleRange: 4

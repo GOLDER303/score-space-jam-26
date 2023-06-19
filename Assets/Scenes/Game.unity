@@ -632,7 +632,7 @@ MonoBehaviour:
   asteroidSpawnDelay: 1
   magnetAsteroidSpawnDelay: 1
   spawnDistance: 15
-  asteroidForce: 15
+  asteroidForce: 8
   trajectoryVariance: 15
 --- !u!4 &577479079
 Transform:
