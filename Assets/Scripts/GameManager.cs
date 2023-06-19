@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -28,5 +29,10 @@ public class GameManager : MonoBehaviour
     {
         score += scoreToAdd;
         inGameScoreText.text = "Score: " + score;
+    }
+
+    public void ReloadGame()
+    {
+        SceneManager.LoadScene(0);
     }
 }
