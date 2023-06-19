@@ -39,4 +39,19 @@ public class PlayerManager : MonoBehaviour
 
         yield return new WaitWhile(() => done == false);
     }
+
+    public void SetPlayerName(string playerName)
+    {
+        LootLockerSDKManager.SetPlayerName(playerName, (response) =>
+        {
+            if (response.success)
+            {
+                Debug.Log("Successfully set player name");
+            }
+            else
+            {
+                Debug.Log("Could not set player name: " + response.Error);
+            }
+        });
+    }
 }
